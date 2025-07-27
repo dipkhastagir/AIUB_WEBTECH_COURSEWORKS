@@ -68,7 +68,7 @@
             {
                 width: 250px;
                 padding: 5px;
-                border: 1px solid #ccc;
+                border: 1px solid;
             }
 
             .form-group textarea 
