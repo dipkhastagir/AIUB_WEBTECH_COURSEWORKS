@@ -1,0 +1,91 @@
+body 
+{
+    background-color: #f1f1f1;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.form-wrapper 
+{
+    max-width: 600px;
+    margin: 40px auto;
+    background: #fff;
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.donation-form label 
+{
+    display: block;
+    margin-top: 15px;
+}
+
+.donation-form input[type="text"],
+.donation-form input[type="email"],
+.donation-form input[type="password"],
+.donation-form select,
+.donation-form textarea 
+{
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.radio-group 
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.radio-group label 
+{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.form-title 
+{
+    color: red;
+    margin-bottom: 20px;
+}
+
+.subheading 
+{
+    color: red;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+textarea 
+{
+    resize: vertical;
+}
+
+.form-buttons 
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+button 
+{
+    padding: 10px 20px;
+    background-color: #ccc;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover 
+{
+     background-color: #aaa;
+}
